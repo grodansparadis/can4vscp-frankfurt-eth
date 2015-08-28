@@ -1853,7 +1853,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="9.42" y="11.27" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U$1" library="seed_Logo" package="ROHS_SILK" value="" x="63.97" y="60.28"/>
-<element name="U$2" library="seed_Logo" package="OSHW_10X200_NOTEXT" value="" x="2.69" y="16.43"/>
+<element name="U$2" library="seed_Logo" package="OSHW_10X200_NOTEXT" value="" x="2.44" y="16.43"/>
 </elements>
 <signals>
 <signal name="+12V">

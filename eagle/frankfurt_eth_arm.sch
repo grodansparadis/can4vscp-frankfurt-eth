@@ -20331,15 +20331,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="P+19" library="SUPPLY1" deviceset="VCC" device=""/>
 <part name="GND37" library="SUPPLY1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="GND35" library="SUPPLY1" deviceset="GND" device=""/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="GND36" library="SUPPLY1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND38" library="SUPPLY1" deviceset="GND" device=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="IC1" library="STM32F103C6T7A" deviceset="STM32F103C6T7A" device=""/>
 <part name="GND20" library="SUPPLY1" deviceset="GND" device=""/>
 <part name="BOOT0" library="con-lstb" deviceset="MA03-1" device=""/>
@@ -20476,10 +20468,10 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="GND39" gate="1" x="71.12" y="127"/>
 <instance part="R20" gate="G$1" x="71.12" y="147.32" rot="R90"/>
 <instance part="P+17" gate="VCC" x="66.04" y="152.4"/>
-<instance part="BOOT1" gate="G$1" x="147.32" y="137.16"/>
-<instance part="GND40" gate="1" x="160.02" y="127"/>
-<instance part="R21" gate="G$1" x="160.02" y="147.32" rot="R90"/>
-<instance part="P+18" gate="VCC" x="154.94" y="157.48"/>
+<instance part="BOOT1" gate="G$1" x="147.32" y="129.54"/>
+<instance part="GND40" gate="1" x="160.02" y="119.38"/>
+<instance part="R21" gate="G$1" x="162.56" y="137.16" rot="R90"/>
+<instance part="P+18" gate="VCC" x="154.94" y="142.24"/>
 <instance part="P+20" gate="VCC" x="27.94" y="246.38"/>
 <instance part="C15" gate="G$1" x="27.94" y="220.98"/>
 <instance part="C17" gate="G$1" x="38.1" y="218.44"/>
@@ -20580,7 +20572,7 @@ Source: 008-0260-0_E.pdf</description>
 </segment>
 <segment>
 <pinref part="BOOT1" gate="G$1" pin="3"/>
-<wire x1="154.94" y1="139.7" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="132.08" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+18" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -20775,8 +20767,8 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="BOOT1" gate="G$1" pin="1"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="154.94" y1="134.62" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="134.62" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="127" x2="160.02" y2="127" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="127" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -21024,18 +21016,18 @@ Source: 008-0260-0_E.pdf</description>
 <net name="BOOT1" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="PB2"/>
-<label x="149.86" y="182.88" size="1.778" layer="95"/>
+<label x="154.94" y="182.88" size="1.778" layer="95"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="182.88" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="182.88" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="182.88" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="_BOOT1" class="0">
 <segment>
 <pinref part="BOOT1" gate="G$1" pin="2"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="137.16" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="137.16" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="129.54" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANTXD" class="0">
@@ -21307,6 +21299,13 @@ Source: 008-0260-0_E.pdf</description>
 <segment>
 <pinref part="IC1" gate="A" pin="PA3"/>
 <wire x1="134.62" y1="223.52" x2="139.7" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_BUS_WARN" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="PB12"/>
+<wire x1="134.62" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<label x="139.7" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -21721,8 +21720,6 @@ Source: 008-0260-0_E.pdf</description>
 </sheet>
 <sheet>
 <plain>
-<text x="58.42" y="162.56" size="1.778" layer="91">CONNECTED</text>
-<text x="99.06" y="162.56" size="1.778" layer="91">BUS WARNING</text>
 <text x="149.86" y="162.56" size="1.778" layer="91">BUS OFF</text>
 </plain>
 <instances>
@@ -21750,15 +21747,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="P+19" gate="VCC" x="81.28" y="228.6"/>
 <instance part="GND37" gate="1" x="81.28" y="203.2"/>
 <instance part="C16" gate="G$1" x="81.28" y="213.36" rot="R180"/>
-<instance part="GND35" gate="1" x="78.74" y="149.86"/>
-<instance part="R15" gate="G$1" x="78.74" y="177.8" rot="R90"/>
-<instance part="LED3" gate="G$1" x="78.74" y="165.1"/>
-<instance part="GND36" gate="1" x="121.92" y="149.86"/>
-<instance part="R16" gate="G$1" x="121.92" y="177.8" rot="R90"/>
-<instance part="LED4" gate="G$1" x="121.92" y="165.1"/>
 <instance part="GND38" gate="1" x="165.1" y="149.86"/>
-<instance part="R18" gate="G$1" x="165.1" y="177.8" rot="R90"/>
-<instance part="LED5" gate="G$1" x="165.1" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -21796,21 +21785,6 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="81.28" y1="210.82" x2="81.28" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="160.02" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="GND35" gate="1" pin="GND"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<wire x1="121.92" y1="160.02" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="GND36" gate="1" pin="GND"/>
-<pinref part="LED4" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<wire x1="165.1" y1="160.02" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="GND38" gate="1" pin="GND"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="EUI48" class="0">
@@ -21933,51 +21907,6 @@ Source: 008-0260-0_E.pdf</description>
 <label x="88.9" y="210.82" size="1.6764" layer="95"/>
 <pinref part="IC7" gate="G$1" pin="/CS"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="LED_CONNECTED" class="0">
-<segment>
-<wire x1="78.74" y1="187.96" x2="78.74" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="187.96" x2="68.58" y2="187.96" width="0.1524" layer="91"/>
-<label x="45.72" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="78.74" y1="167.64" x2="78.74" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="LED_BUS_WARN" class="0">
-<segment>
-<wire x1="121.92" y1="187.96" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="187.96" x2="111.76" y2="187.96" width="0.1524" layer="91"/>
-<label x="91.44" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<wire x1="121.92" y1="167.64" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="LED_BUS_OFF" class="0">
-<segment>
-<wire x1="165.1" y1="187.96" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="165.1" y1="187.96" x2="154.94" y2="187.96" width="0.1524" layer="91"/>
-<label x="134.62" y="187.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<wire x1="165.1" y1="167.64" x2="165.1" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>

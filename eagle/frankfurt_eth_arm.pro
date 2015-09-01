@@ -2,12 +2,12 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/grodansparadis/development/can4vscp_frankfurt_eth/eagle/frankfurt_eth_arm.brd
 
-Start at      : 12:35:55 (2015-09-01)
-End at        : 12:35:56 (2015-09-01)
+Start at      : 13:52:46 (2015-09-01)
+End at        : 13:52:46 (2015-09-01)
 Elapsed time  : 00:00:00
 
-Signals       :    62   RoutingGrid: 50 mil  Layers: 2
-Connections   :   214   predefined:  214 ( 114 Vias )
+Signals       :    57   RoutingGrid: 50 mil  Layers: 2
+Connections   :   208   predefined:  208 ( 114 Vias )
 
 Router memory :   15860
 

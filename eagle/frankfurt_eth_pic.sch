@@ -18812,9 +18812,6 @@ package type SS</description>
 <text x="200.66" y="177.8" size="1.778" layer="91">ALPS SKHH</text>
 <text x="200.66" y="175.26" size="1.778" layer="91">Horizontal type</text>
 <text x="378.46" y="7.62" size="1.778" layer="91">A</text>
-<text x="289.56" y="27.94" size="5.08" layer="91">Odessa</text>
-<text x="365.76" y="25.4" size="1.778" layer="91">http://www.vscp.org</text>
-<text x="289.56" y="25.4" size="1.778" layer="91">Expansion</text>
 <text x="287.02" y="241.3" size="1.778" layer="91">Input voltage</text>
 <text x="287.02" y="238.76" size="1.778" layer="91">+7V DC - +28V DC</text>
 <text x="172.72" y="30.48" size="1.778" layer="91">Power LED</text>
@@ -18828,6 +18825,9 @@ package type SS</description>
 <text x="231.14" y="259.08" size="1.778" layer="91">R17</text>
 <text x="127" y="66.04" size="1.778" layer="91">+3.3V</text>
 <text x="81.28" y="20.32" size="1.778" layer="91">+3.3V</text>
+<text x="289.56" y="27.94" size="5.08" layer="91">Frankfurt Eth</text>
+<text x="365.76" y="25.4" size="1.778" layer="91">http://www.vscp.org</text>
+<text x="289.56" y="25.4" size="1.778" layer="91">PIC version</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -19390,9 +19390,10 @@ package type SS</description>
 </sheet>
 <sheet>
 <plain>
-<text x="292.1" y="17.78" size="1.778" layer="91">Ethernet</text>
 <text x="375.92" y="2.54" size="1.778" layer="91">Rev A</text>
-<text x="292.1" y="15.24" size="1.778" layer="91">http://www.grodansparadis.com</text>
+<text x="292.1" y="15.24" size="5.08" layer="91">Frankfurt Eth</text>
+<text x="292.1" y="7.62" size="1.778" layer="91">http://www.vscp.org</text>
+<text x="292.1" y="12.7" size="1.778" layer="91">PIC version</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="-2.54"/>
@@ -19779,6 +19780,10 @@ package type SS</description>
 <text x="58.42" y="162.56" size="1.778" layer="91">CONNECTED</text>
 <text x="99.06" y="162.56" size="1.778" layer="91">BUS WARNING</text>
 <text x="149.86" y="162.56" size="1.778" layer="91">BUS OFF</text>
+<text x="292.1" y="17.78" size="5.08" layer="91">Frankfurt Eth</text>
+<text x="292.1" y="10.16" size="1.778" layer="91">http://www.vscp.org</text>
+<text x="292.1" y="15.24" size="1.778" layer="91">PIC version</text>
+<text x="378.46" y="5.08" size="1.778" layer="91">A</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>

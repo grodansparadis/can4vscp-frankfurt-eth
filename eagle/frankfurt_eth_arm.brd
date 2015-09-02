@@ -140,9 +140,9 @@
 <text x="52.94" y="16.64" size="0.8128" layer="25" rot="R180">POWER</text>
 <text x="69.74" y="31.16" size="1.016" layer="25" rot="R180">INIT</text>
 <wire x1="-0.01" y1="-0.01" x2="0.03" y2="65.06" width="0" layer="20"/>
-<wire x1="0.03" y1="65.06" x2="71.63" y2="65.07" width="0" layer="20"/>
-<wire x1="71.63" y1="65.07" x2="71.58" y2="0.21" width="0" layer="20"/>
-<wire x1="71.58" y1="0.21" x2="-0.01" y2="-0.01" width="0" layer="20"/>
+<wire x1="0.03" y1="65.06" x2="71.51" y2="65.07" width="0" layer="20"/>
+<wire x1="71.51" y1="65.07" x2="71.64" y2="0.02" width="0" layer="20"/>
+<wire x1="71.64" y1="0.02" x2="-0.01" y2="-0.01" width="0" layer="20"/>
 <circle x="36.93" y="50.54" radius="0.1220625" width="0.8128" layer="25"/>
 </plain>
 <libraries>

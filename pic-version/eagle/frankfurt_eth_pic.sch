@@ -18734,7 +18734,7 @@ package type SS</description>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="Red LED"/>
 <part name="P+9" library="SUPPLY1" deviceset="VCC" device=""/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="1 uF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="10 uF"/>
 <part name="GND32" library="SUPPLY1" deviceset="GND" device=""/>
 <part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="120"/>
 <part name="TERM" library="con-molex" deviceset="22-23-2021" device=""/>

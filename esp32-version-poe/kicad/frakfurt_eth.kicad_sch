@@ -5515,7 +5515,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2825a359-63fa-4555-8fba-ca5b93be9953)
   )
-  (text "Misc" (at 12.7 101.6 0)
+  (text "Connectors" (at 12.7 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4f9c7878-96c5-4f3a-9bd1-ec933a61abea)
   )

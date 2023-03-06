@@ -1,0 +1,117 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MURATA_MYBSP0122BABFT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "MD" (id 0) (at 2.54 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify top left))
+    )
+    (property "Value" "MURATA_MYBSP0122BABFT" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Footprint" "MURATA_MYBSP0122BABFT_0" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MURATA_MYBSP0122BABFT_0_0"
+      (polyline
+        (pts (xy 14.732 -5.08) (xy 14.732 -7.62)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 14.732 -10.16) (xy 14.732 -12.7)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 14.732 -15.24) (xy 14.732 -17.78)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 14.732 -20.32) (xy 14.732 -22.86)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 14.732 -25.4) (xy 14.732 -27.94)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 14.732 -29.21) (xy 14.732 -30.48)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -30.48) (xy 15.748 -29.21)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -7.62) (xy 15.748 -5.08)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -10.16) (xy 15.748 -12.7)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -15.24) (xy 15.748 -17.78)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -20.32) (xy 15.748 -22.86)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -27.94) (xy 15.748 -27.94)) (stroke (width 0.508))
+      )
+      (polyline
+        (pts (xy 15.748 -27.94) (xy 15.748 -25.4)) (stroke (width 0.508))
+      )
+      (text "MYBSP0122BABFT" (at 2.54 -33.02 0)
+        (effects (font (size 2.54 2.54)) (justify top left))
+      )
+      (rectangle (start 2.54 -30.48) (end 27.94 -5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -2.54 -7.62 0) (length 5.08)
+        (name "+VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -7.62 180.0) (length 5.08)
+        (name "+VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -2.54 -12.7 0) (length 5.08)
+        (name "-VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 33.02 -27.94 180.0) (length 5.08)
+        (name "-VOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -2.54 -17.78 0) (length 5.08)
+        (name "DEN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -2.54 -22.86 0) (length 5.08)
+        (name "T2P"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -2.54 -27.94 0) (length 5.08)
+        (name "VC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

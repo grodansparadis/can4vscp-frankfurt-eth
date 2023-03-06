@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/usr/local/src/VSCP/can4vscp_frankfurt_eth/esp32-version/kicad/frakfurt_eth.kicad_sch</source>
-    <date>mån  6 mar 2023 15:03:21</date>
+    <date>mån  6 mar 2023 16:14:15</date>
     <tool>Eeschema 7.0.0-da2b9df05c~171~ubuntu22.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -247,7 +247,7 @@
       <tstamps>9771e02e-635d-4942-99b3-b90070642c2f</tstamps>
     </comp>
     <comp ref="L1">
-      <value>BLM18PG181SN1D</value>
+      <value>BLM21SP181SN1D</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -258,7 +258,7 @@
       <tstamps>85c1daff-aefe-4507-9e2a-91cbb53466b8</tstamps>
     </comp>
     <comp ref="L2">
-      <value>BLM18PG181SN1D</value>
+      <value>BLM21SP181SN1D</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="Sheetname" value=""/>

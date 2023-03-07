@@ -16,6 +16,10 @@ The intended use is to connect a remote CAN4VSCP bus to a central system or to c
 
 If Wifi is required instead of Ethernet the [CAN4VSCP Frankfurt Wifi module](https://github.com/grodansparadis/can4vscp-frankfurt-wifi) is available that can do that.
 
+
+
+PCB's for this project has been sponsored by [PCBWay](https://www.pcbway.com/). We can really recommend there services. 
+
 ## Schema
 
 ### Standard version

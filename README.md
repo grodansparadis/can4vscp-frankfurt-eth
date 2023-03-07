@@ -4,11 +4,11 @@
 
 This work is based on original work done [here](https://github.com/nuclearcat/ESP32ETH). 
 
-**Frankfurt Eth** is a tcp/ip and MQTT CAN4VSCP gateway. The module is available in two versions. One without PoE and and with PoE.
+**Frankfurt Eth** is a tcp/ip and MQTT CAN4VSCP gateway. The module is available in two versions. One without PoE and and one with PoE.
 
 The module is plug and play. Just connect to a CAN4VSCP system and go to work. You can connect to the module using [VSCP tcp/ip link protocol](https://grodansparadis.github.io/vscp-doc-spec/#/./vscp_tcpiplink) or set it up to talk to a MQTT broker of choice.
 
-Nota that this is **not** a CAN <-> tcp/ip (or MQTT) gateway as it only speaks [VSCP](https://grodansparadis.github.io/vscp-doc-spec). It is possible though to load firmware into it to create a standard CAN (not CAN FD) <-> tcp/ip gateway. 
+Note that this is **not** a CAN <-> tcp/ip (or MQTT) gateway as it only speaks [VSCP](https://grodansparadis.github.io/vscp-doc-spec). It is possible though to load firmware into it to create a standard CAN (not CAN FD) <-> tcp/ip gateway. 
 
 The project uses an ESP32 Wroom module. It utilize Ethernet instead of Wifi/Bluetooth. Ethernet interface is provided with a LAN8720A and CAN is provided by the ESP32 support for TWAI. The module is powered from the [CAN4VSCP bus](https://grodansparadis.github.io/vscp-doc-spec/#/./vscp_over_can_can4vscp) (or PoE).  When powered from PoE the module can provide power for other CAN4VSCP modules. CAN4VSCP power is in the range +9V - 28V.
 

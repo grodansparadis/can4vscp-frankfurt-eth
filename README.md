@@ -18,7 +18,7 @@ If Wifi is required instead of Ethernet the [CAN4VSCP Frankfurt Wifi module](htt
 
 ![](./images/pcbway.png)
 
-PCB's for this project has been sponsored by [PCBWay](https://www.pcbway.com/). We can really recommend this service if you need high quality PCB's. 
+Prototype PCB's for this project has been sponsored by [PCBWay](https://www.pcbway.com/). We can really recommend this service if you need high quality PCB's. 
 
 ## Schema
 

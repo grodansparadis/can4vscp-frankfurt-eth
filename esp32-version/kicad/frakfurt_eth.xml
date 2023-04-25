@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/usr/local/src/VSCP/can4vscp_frankfurt_eth/esp32-version/kicad/frakfurt_eth.kicad_sch</source>
-    <date>mån  6 mar 2023 16:14:15</date>
-    <tool>Eeschema 7.0.0-da2b9df05c~171~ubuntu22.10.1</tool>
+    <source>/usr/local/src/VSCP/can4vscp-frankfurt-eth/esp32-version/kicad/frakfurt_eth.kicad_sch</source>
+    <date>tor 23 mar 2023 16:47:27</date>
+    <tool>Eeschema 7.0.1-3b83917a11~172~ubuntu22.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Frankfurt Eth</title>
@@ -1007,8 +1007,8 @@
       <node ref="U2" pin="6" pinfunction="IO34" pintype="input"/>
     </net>
     <net code="16" name="/LEDB">
-      <node ref="D1" pin="3" pinfunction="K2" pintype="input+no_connect"/>
-      <node ref="U2" pin="7" pinfunction="IO35" pintype="input+no_connect"/>
+      <node ref="D1" pin="3" pinfunction="K2" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="IO35" pintype="input"/>
     </net>
     <net code="17" name="/PHY_INT">
       <node ref="R13" pin="1" pintype="passive"/>

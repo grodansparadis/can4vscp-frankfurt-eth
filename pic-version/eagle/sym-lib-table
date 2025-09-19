@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "frankfurt_eth_pic-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/frankfurt_eth_pic-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -61,7 +61,7 @@ Visit our <a href="http://www.vscp.org/wiki/doku.php/sponsors">sponsor page</a> 
 
 Part of the VSCP Project.
 
-Copyright 2018-2023 © Åke Hedman, (Grodans Paradis AB)[https://www.grodansparadis.com]
+Copyright 2018-2025 © Åke Hedman, (Grodans Paradis AB)[https://www.grodansparadis.com]
 
 <hr>
 

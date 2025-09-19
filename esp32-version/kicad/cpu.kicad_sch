@@ -2651,6 +2651,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Later versions of ESP32 does not."
+		(exclude_from_sim no)
+		(at 87.122 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c571dd4-2511-49c9-9eaa-58cbe7d803a1")
+	)
+	(text "ONLY ESP32-D0WD-V3 series have Ethernet MAC built in"
+		(exclude_from_sim no)
+		(at 98.298 35.814 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1728ab40-951e-42e8-86db-49f6f32e0587")
+	)
+	(text "IMPORTANT"
+		(exclude_from_sim no)
+		(at 75.438 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2cec3d28-0832-452c-b102-a971733248ad")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 208.28 92.71 0)

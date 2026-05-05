@@ -1,2 +1,7 @@
-frakfurt_eth-backups
 
+
+#Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+
+frankfurt-eth-poe-backups/
+*.lck

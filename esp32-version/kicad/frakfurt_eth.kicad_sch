@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "2f472d01-d9e9-4437-9d22-94e09044a42c")
 	(paper "A3")
 	(title_block
@@ -35,11 +35,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "66e85d49-345b-4956-a155-509bd9701279")
 		(property "Sheetname" "CAN"
 			(at 121.92 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,6 +51,8 @@
 		)
 		(property "Sheetfile" "can.kicad_sch"
 			(at 121.92 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,11 +81,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "875bfb00-9bea-4024-8ce0-9ac42bbe73db")
 		(property "Sheetname" "Power"
 			(at 88.9 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,6 +97,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 88.9 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,11 +127,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b1e5d698-2d78-45eb-999e-f7160d370b2c")
 		(property "Sheetname" "CPU"
 			(at 26.67 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,6 +143,8 @@
 		)
 		(property "Sheetfile" "cpu.kicad_sch"
 			(at 26.67 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,11 +173,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f4456045-a6da-4fd9-b138-4e967ead9691")
 		(property "Sheetname" "Ethernet"
 			(at 58.42 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,6 +189,8 @@
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
 			(at 58.42 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
